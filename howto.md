@@ -1,5 +1,5 @@
 # How to deal with git on Windows
-I'm using git shell in order to do all of this. Typing up how to do things in git as I encounter them.
+I'm using git shell in order to do all of my gittery. It works for me. Typing up how to do things in git as I encounter them.
 
 ## Seeing what you committed.
 1. Type git log in the git shell.
