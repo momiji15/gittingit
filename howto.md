@@ -1,5 +1,17 @@
 # How to deal with git on Windows
-I'm using git shell in order to do all of my gittery. It works for me. Typing up how to do things in git as I encounter them.
+I'm using git shell in order to do all of my gittery. It works for me. Typing up how to do things in git as I encounter them. Excuse the disorganization.
+
+## Checking to see what is the what is the origin
+1. type `git remote -v`
+
+## You have git set up and ready to go. You multiple respositories going on and you want to commit to the one repository you've been working on.
+1. Let's first check to see what the origin is. Type `git remote -v`.
+2. If the origin is right, then you're alright. If not, then you need to change directories.
+3. Type `cd ~\Documents\GitHub\YourFolderName`.
+4. Type `git status` to see which files you have changed.
+5. Type `git add filename` to include the files you want to commit. You might have to do this multiple times.
+6. Type `git commit -m "Put whatever commit message you want"`.
+7. Let's push it through the repository. Type `git push origin master` in order to do that. 
 
 ## Seeing what you committed.
 1. Type `git log` in the git shell.
