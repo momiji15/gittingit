@@ -1,5 +1,5 @@
 # How to deal with git on Windows
-I'm using git shell in order to do all of my gittery. It works for me. Typing up how to do things in git as I encounter them. Excuse the disorganization.
+I'm using git shell in order to do all of my gittery.  These things worked for me...hopefully they will work for you too.Typing up how to do things in git as I encounter them. Excuse the disorganization.
 
 ## Checking to see what is the what is the origin
 1. type `git remote -v`
