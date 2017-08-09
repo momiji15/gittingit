@@ -5,8 +5,7 @@ I'm using git shell in order to do all of this. Typing up how to do things in gi
 1. Type git log in the git shell.
 2. If you want to escape from the git log, press Q.
 
-## If you are just messing around with your git and you accidently commit to the wrong repository. You want to get rid of that commit, plus 
-## have your repository reflect that your mistake never ever did happen.
+## If you are just messing around with your git and you accidently commit to the wrong repository. You want to get rid of that commit, plus  have your repository reflect that your mistake never ever did happen.
 1. Type git log in the git shell.
 2. Find the commit where you want to revert your repo to.
 3. Highlight and right-click on that commit.
