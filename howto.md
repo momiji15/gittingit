@@ -32,7 +32,7 @@ NOTE: Word on the street is that you should proceed with caution with this. Like
 2. Find the commit where you want to revert your repo to.
 3. Highlight and right-click on that commit.
 4. Press `Q` to end the git log.
-5. Type: `git revert commitnumber(seriously write your commit number)'
+5. Type: `git revert commitnumber(seriously write your commit number)`
 
 ## Deleting a folder 
 
@@ -46,5 +46,12 @@ NOTE: Word on the street is that you should proceed with caution with this. Like
 7. After that, write `git rm -r YourFolderName`.
 8. Now you need to commit the changes to git. Write: `git commit -m "Removed YourFolderName."`
 9. Now you need to push the changes to git. Write: `git push origin master`.
+
+
+### Cloning a repository
+1. Click on "Clone or download."
+2. Copy the link.
+3. Open up your Git shell, command line...wherever you do your thing with Git.
+4. Type `git clone` and then paste the link.
 
 
