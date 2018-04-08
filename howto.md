@@ -52,7 +52,8 @@ NOTE: Word on the street is that you should proceed with caution with this. Like
  `git rm --cached -r mydirectory`
 
  For single directory:
- `git rm --cached yourfilename`
+ Let's just say you wanted to get rid of your .gitignore file...
+ `git rm --cached -r .gitignore`
 
 ## Cloning a repository
 1. Click on "Clone or download."
