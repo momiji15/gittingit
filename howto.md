@@ -46,9 +46,15 @@ NOTE: Word on the street is that you should proceed with caution with this. Like
 7. After that, write `git rm -r YourFolderName`.
 8. Now you need to commit the changes to git. Write: `git commit -m "Removed YourFolderName."`
 9. Now you need to push the changes to git. Write: `git push origin master`.
+  
+ ## If you want to delete your file on your GitHub but you want to keep it locally
+ For a single file:
+ `git rm --cached -r mydirectory`
 
+ For single directory:
+ `git rm --cached yourfilename`
 
-### Cloning a repository
+## Cloning a repository
 1. Click on "Clone or download."
 2. Copy the link.
 3. Open up your Git shell, command line...wherever you do your thing with Git.
