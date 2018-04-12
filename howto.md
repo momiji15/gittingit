@@ -47,7 +47,7 @@ NOTE: Word on the street is that you should proceed with caution with this. Like
 8. Now you need to commit the changes to git. Write: `git commit -m "Removed YourFolderName."`
 9. Now you need to push the changes to git. Write: `git push origin master`.
   
- ## If you want to delete your file on your GitHub but you want to keep it locally
+ ### If you want to delete your file on your GitHub but you want to keep it locally
  For a single file:
  `git rm --cached -r mydirectory`
 
@@ -55,10 +55,18 @@ NOTE: Word on the street is that you should proceed with caution with this. Like
  Let's just say you wanted to get rid of your .gitignore file...
  `git rm --cached -r .gitignore`
 
-## Cloning a repository
+### Cloning a repository
 1. Click on "Clone or download."
 2. Copy the link.
 3. Open up your Git shell, command line...wherever you do your thing with Git.
 4. Type `git clone` and then paste the link.
 
 
+### If you get a message about updates being rejected becauase the remote contains work you do not have locally
+If you get this wonderful message when trying to commit something:
+`hint: Updates were rejected because the remote contains work that you do`
+`hint: not have locally. This is usually caused by another repository pushing`
+`hint: to the same ref. You may want to first integrate the remote changes`
+`hint: (e.g., 'git pull ...') before pushing again.`
+
+Just do what the instructions say and type `git pull` and then `git push origin master`.
