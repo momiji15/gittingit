@@ -70,3 +70,15 @@ If you get this wonderful message when trying to commit something:
 `hint: (e.g., 'git pull ...') before pushing again.`
 
 Just do what the instructions say and type `git pull` and then `git push origin master`.
+
+## You're working on a project with someone and you forked someone's repo. That someone made a commit to their repo and when you go to your forked repo, you see a message that says "This branch is 4 commits behind whateverthenameoftherepo:master.
+Okay, not going to lie....I refered to this lovely blog post by [Gary Gregory](https://garygregory.wordpress.com/2016/11/10/how-to-catch-up-my-git-fork-to-master/) on how to do this. You could just click on that or read on. I won't be mad at you.
+
+- Open up your command line/git shell/whatever.
+- Change to the local directory of the project.
+- Go the the repository of the person who has the master repo and click on that clone/download button(the green one). Copy that link. 
+- In your command line write `git remote add upstream https://github.com/personsusername/personsrepo.git`. Of course this is purely an 
+  example. 
+- If you want to make sure all is well, type `git remote -v` to see what's up.
+- Now you're going to have to get those commits from the master repository so you will need to type `git fetch upstream`.
+- And now you're going to merge those changes to your local master branch: `git merge upstream/master`
