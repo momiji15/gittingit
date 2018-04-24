@@ -71,7 +71,7 @@ If you get this wonderful message when trying to commit something:
 
 Just do what the instructions say and type `git pull` and then `git push origin master`.
 
-## You're working on a project with someone and you forked someone's repo. That someone made a commit to their repo and when you go to your forked repo, you see a message that says "This branch is 4 commits behind whateverthenameoftherepo:master.
+## You're working on a project with someone and you forked someone's repo. That someone made a commit to their repo and when you go to your forked repo, you see a message that says "This branch is 4 commits behind whateverthenameoftherepo:master."
 Okay, not going to lie....I refered to this lovely blog post by [Gary Gregory](https://garygregory.wordpress.com/2016/11/10/how-to-catch-up-my-git-fork-to-master/) on how to do this. You could just click on that or read on. I won't be mad at you.
 
 - Open up your command line/git shell/whatever.
