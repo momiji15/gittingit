@@ -82,3 +82,11 @@ Okay, not going to lie....I refered to this lovely blog post by [Gary Gregory](h
 - If you want to make sure all is well, type `git remote -v` to see what's up.
 - Now you're going to have to get those commits from the master repository so you will need to type `git fetch upstream`.
 - And now you're going to merge those changes to your local master branch: `git merge upstream/master`
+
+
+### You forked someone's repo but that person made some commits. Now your forked repo is behind.
+- Go to your forked repo.
+- Click on "Create pull request."
+
+### You were able to fork someone's repo, but now you need to put it in your local directory.
+Type `git pull origin master`
