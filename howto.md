@@ -13,6 +13,14 @@ I'm using git shell in order to do all of my gittery.  These things worked for m
 6. Type `git commit -m "Put whatever commit message you want"`.
 7. Let's push it through the repository. Type `git push origin master` in order to do that. 
 
+## You see that you have several remote URLS and you want to get rid of them.
+1. Type `git remote -v` to see what's there.
+2. Find what you want to delete and then type `git remote rm remoteURL`
+3. Type `git remote -v` to confirm that it's gone.
+
+## You want to add a new git remote URL
+1. type `git remote set-url origin https://Repo.git`
+
 ## Seeing what you committed.
 1. Type `git log` in the git shell.
 2. If you want to escape from the git log, press `Q`.
@@ -38,7 +46,10 @@ NOTE: Word on the street is that you should proceed with caution with this. Like
 So you jumped the gun and used `git add*` or `git -A` or something like that. All you need to do is type `git reset` to undo your damage.
 
 ## You thought you reverted everything back to where things were at, and well you see that all of the files in your local repo are deleted.
-Take a breath. A big breath. We're going to get through this. Type `git log` and find the commit before you got yourself into this mess. Then after that type, `git reset --hard commitnumber`. Everything should be back in its place. And while you're at it...go ahead and make a backup of that folder.
+Take a breath. A big breath. We're going to get through this.
+1. Type `git log` and find the commit before you got yourself into this mess. 
+2. Then after that type, `git reset --hard commitnumber`. Everything should be back in its place. 
+3. And while you're at it...go ahead and make a backup of that folder.
 
 ## Deleting a folder 
 
