@@ -34,6 +34,9 @@ NOTE: Word on the street is that you should proceed with caution with this. Like
 4. Press `Q` to end the git log.
 5. Type: `git revert commitnumber(seriously write your commit number)`
 
+## You added everything to be committed in git and you totally didn't mean to do that.
+So you jumped the gun and used `git add*` or `git -A` or something like that. All you need to do is type `git reset` to undo your damage.
+
 ## Deleting a folder 
 
 ### If you have a local directory
