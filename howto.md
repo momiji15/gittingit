@@ -78,6 +78,10 @@ Take a breath. A big breath. We're going to get through this.
 3. Open up your Git shell, command line...wherever you do your thing with Git.
 4. Type `git clone` and then paste the link.
 
+## If you deleted a file locally and you want your GitHub to also delete your file as well
+1. Type `git rm <filename>`
+2. Type `git commit -m "Deleted folders."`
+3. Type `git push origin master` to push the changes to your repo.
 
 ### If you get a message about updates being rejected becauase the remote contains work you do not have locally
 If you get this wonderful message when trying to commit something:
