@@ -37,6 +37,9 @@ NOTE: Word on the street is that you should proceed with caution with this. Like
 ## You added everything to be committed in git and you totally didn't mean to do that.
 So you jumped the gun and used `git add*` or `git -A` or something like that. All you need to do is type `git reset` to undo your damage.
 
+## You thought you reverted everything back to where things were at, and well you see that all of the files in your local repo are deleted.
+Take a breath. A big breath. We're going to get through this. Type `git log` and find the commit before you got yourself into this mess. Then after that type, `git reset --hard commitnumber`. Everything should be back in its place. And while you're at it...go ahead and make a backup of that folder.
+
 ## Deleting a folder 
 
 ### If you have a local directory
