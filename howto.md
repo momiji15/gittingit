@@ -111,3 +111,6 @@ Okay, not going to lie....I refered to this lovely blog post by [Gary Gregory](h
 
 ### You were able to fork someone's repo, but now you need to put it in your local directory.
 Type `git pull origin master`
+
+### What's the opposite of git add?
+Type `git reset`. You can also include the file name as well like this `git reset mistake.txt`.
