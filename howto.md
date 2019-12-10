@@ -114,3 +114,9 @@ Type `git pull origin master`
 
 ### What's the opposite of git add?
 Type `git reset`. You can also include the file name as well like this `git reset mistake.txt`.
+
+### You get an error message that says 'error: src refspec master does not match any.' error: failed to push some refs to 'ssh://xxxxx.com/project.git'
+  
+Type `git push --all origin`
+This pushes all branches to remote without checking refs and insisting on commits. [Source](https://stackoverflow.com/questions/4181861/message-src-refspec-master-does-not-match-any-when-pushing-commits-in-git)
+
